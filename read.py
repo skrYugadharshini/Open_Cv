@@ -1,8 +1,8 @@
-import cv2
-print(cv2.__version__)
+import cv2 as cv
 
+img = cv.imread('Photos/cat_large.jpg')
 
+cv.imshow('cat' , img)
 
-
-
+cv.waitKey(0)
 
